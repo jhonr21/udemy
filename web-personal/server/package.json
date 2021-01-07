@@ -3,15 +3,20 @@
   "version": "0.0.1",
   "description": "primera web",
   "main": "index.js",
-  "author": "jhonrangel",
+  "author": "jhon rangel",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.19.0",
     "connect-multiparty": "^2.2.0",
     "express": "^4.17.1",
+    "global": "^4.4.0",
     "jwt-simple": "^0.5.6",
-    "mogoose": "^0.0.1-security",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
   }
 }
