@@ -1,9 +1,9 @@
 {
-  "name": "jhon-rangel",
-  "version": "0.01",
+  "name": "jhonrangel",
+  "version": "0.0.1",
   "description": "primera web",
   "main": "index.js",
-  "author": "Jhon Rangel",
+  "author": "jhonrangel",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
