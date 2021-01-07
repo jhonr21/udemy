@@ -1,21 +1,19 @@
-const express = require ("express");
-const bodyParser = require("body-parser");
+const app=express();
+const {API_VERSION}= require('./config');
+
+//Load routings
 
 
-const app = express();
 
-const {API_VERSION, IP_SERVER, PORT_DB} = require('./config');
- 
-
-//load routings
-//....
-
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-//configure header HTTP
-//...
+//configuracion http
+// Configure Header HTTP
 
-//Router Basic
+  
+//Router basic
+app.use(`/api/${API_VERSION}`,authRoutes);
+app.use(`/api/${API_VERSION}`,userRoutes);
 
-Module.export = app;
+module.exports=app;
