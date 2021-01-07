@@ -4,5 +4,10 @@
   "description": "primera web",
   "main": "index.js",
   "author": "Jhon Rangel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1"
+  }
 }

@@ -1,8 +1,9 @@
+import React from 'react';
 import {DatePicker, Card} from 'antd';
 import './App.scss';
 
 function App() {
-  const test = (date, dateString) =>{
+  const test = (date, dateString) => {
     console.log(date, dateString)
   }
   return (
